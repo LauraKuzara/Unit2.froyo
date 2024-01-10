@@ -20,4 +20,4 @@ function countFlavors(flavorsArray) {
 
 let flavorCounts = countFlavors(flavorsArray);
 
-console.log("Flavor counts:", flavorCounts);
+console.table("Flavor counts:", flavorCounts);
